@@ -1,5 +1,6 @@
 @import 'config';
 @import 'utilities';
+@import '_item_grid';
 
 // General Styles
 * {
@@ -217,6 +218,7 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: .8rem;
+            
         }
 
         .award-1 {
